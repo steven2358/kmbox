@@ -31,9 +31,8 @@ The code has been developed and copyrighted © 2014 by Steven Van Vaerenbergh. I
 Installation
 ---
 
-Extract the zip file. Add the toolbox' main folder and subfolders to the 
-MATLAB path.
-
+1. Run `install.m` to add the library folder to the path.
+2. Type `savepath` to save the changes to the path.
 
 Usage
 ---
