@@ -100,30 +100,39 @@ CHANGELOG
 ---
 
 History of changes:
-v0.9 (20130521)
+
+v0.9 (2013-05-21)
 - inclusion of KDE code and demo
-- minor changes  
-v0.8 (20130211)
+- minor changes
+
+v0.8 (2013-02-11)
 - inclusion of AKCCA code and demo
-- minor changes  
-v0.7 (20120901):
+- minor changes
+
+v0.7 (2012-09-01):
 - inclusion of QKLMS code
-- minor changes  
-v0.6 (20120326):
-- inclusion of a demo for kernel canonical correlation analysis (KCCA)  
-v0.5 (20120214):
+- minor changes
+
+v0.6 (2012-03-26):
+- inclusion of a demo for kernel canonical correlation analysis (KCCA)
+
+v0.5 (2012-02-14):
 - inclusion of KRLS-T
-- addition of a file identifier to each file  
-v0.4 (20110504):
+- addition of a file identifier to each file
+
+v0.4 (2011-05-04):
 - inclusion of NORMA, fixed-budget KRLS, kernel PCA, incomplete Cholesky decomposition
 - inclusion of incomplete cholesky decomposition algorithm (km_kernel_icd).
 - included a listing of dependencies in function headers.
 - format change: dafault format for data matrices is now one data point per row (instead of one per column).
-- format change: one input argument less for online algorithms  
-v0.3 (20101203):
-- modifications to ALD-KRLS implementation.  
-v0.2 (20101108):
+- format change: one input argument less for online algorithms
+
+v0.3 (2010-12-03):
+- modifications to ALD-KRLS implementation.
+
+v0.2 (2010-11-08):
 - inclusion of kernel recursive least-squares algorithms (km_krls): ALD-KRLS (Approximate Linear Dependency KRLS), SW-KRLS (Sliding-Window KRLS).
-- correction of minor details  
-v0.1 (20100908):
+- correction of minor details
+
+v0.1 (2010-09-08):
 - original package, includes linear PCA and kernel ridge regression algorithms.
