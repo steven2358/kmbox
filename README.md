@@ -60,7 +60,7 @@ If you use this toolbox in your research please cite [my Ph.D. thesis](http://gt
     }
 
 
-INCLUDED ALGORITHMS
+Included algorithms
 ---
 
 - Kernel Ridge Regression (KRR).
@@ -88,7 +88,7 @@ Option 2: [fork the toolbox on GitHub](https://github.com/steven2358/kafbox), pu
 Do include at least one "demo" file for each algorithm.
 
 
-CHANGELOG
+Changelog
 ---
 
 History of changes:
