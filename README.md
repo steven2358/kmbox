@@ -3,7 +3,7 @@ Kernel Methods Toolbox
 
 A MATLAB toolbox for nonlinear signal processing and machine learning
 
-Author: Steven Van Vaerenbergh
+Author: [Steven Van Vaerenbergh](http://gtas.unican.es/people/steven)
 
 Official web: https://sourceforge.net/projects/kmbox  
 
@@ -17,7 +17,7 @@ KMBOX includes implementations of algorithms such as kernel principal component 
 
 The goal of this distribution is to provide easy-to-analyze algorithm implementations, which reveal the inner mechanics of each algorithm and allow for quick modifications. The focus of these implementations is therefore on readability rather than speed or memory usage.
 
-The basis of this toolbox was a set of programs written for the Ph.D. Thesis "Kernel Methods for Nonlinear Identification, Equalization and Separation of Signals", by Steven Van Vaerenbergh, defended in 2010.
+The basis of this toolbox was a set of programs written for the Ph.D. Thesis "Kernel Methods for Nonlinear Identification, Equalization and Separation of Signals".
 
 Template files are provided to encourage external authors to include their own code into the toolbox.
 
@@ -25,7 +25,7 @@ Template files are provided to encourage external authors to include their own c
 Copyright notice
 ---
 
-The code has been developed and copyrighted © 2014 by Steven Van Vaerenbergh. It is distributed under the terms of the BSD (3-Clause) License. In short, this means that everyone is free to use it, to modify it and to redistribute it on a free basis. It is not in the public domain; it is copyrighted and there are restrictions on its distribution (see LICENSE.txt).
+The code has been developed and copyrighted © 2014 by [Steven Van Vaerenbergh](http://gtas.unican.es/people/steven). It is distributed under the terms of the BSD (3-Clause) License. In short, this means that everyone is free to use it, to modify it and to redistribute it on a free basis. It is not in the public domain; it is copyrighted and there are restrictions on its distribution (see LICENSE.txt).
 
 
 Installation
@@ -37,7 +37,7 @@ Installation
 Usage
 ---
 
-The name of each function uses the prefix "km_" to minimize interference with other toolboxes. Usage of each function is specified in the function file itself.
+The name of each function uses the prefix `km_` to minimize interference with other toolboxes. Usage of each function is specified in the function file itself.
 
 Most algorithms have a corresponding demonstration file in the "demo" folder that bears the suffix "_demo". These programs can be executed without setting any additional parameters.
 
@@ -48,7 +48,7 @@ The code uses the following conventions:
 Citing KMBOX
 ---
 
-If you use this toolbox in your research please cite [thid document](http://gtas.unican.es/pub/255):
+If you use this toolbox in your research please cite [my Ph.D. thesis](http://gtas.unican.es/pub/255):
 
     @phdthesis {vanvaerenbergh2010kernel,
       author = {Van Vaerenbergh, Steven}
