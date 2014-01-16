@@ -48,23 +48,16 @@ The code uses the following conventions:
 Citing KMBOX
 ---
 
-If you use this toolbox in your research please cite
-@phdthesis {vanvaerenbergh2010kernel,
-	author = {Van Vaerenbergh, Steven}
-	title = {Kernel methods for nonlinear identification, equalization and separation of signals},
-	year = {2010},
-	school = {University of Cantabria},
-	month = feb,
-	note = {Software available at \url{http://sourceforge.net/projects/kmbox/}}
-}
+If you use this toolbox in your research please cite [thid document](http://gtas.unican.es/pub/255):
 
-
-Contact
----
-
-Mail: steven (at) gtas.dicom.unican.es  
-Web site: http://gtas.unican.es/people/steven  
-Project web site: http://sourceforge.net/projects/kmbox/  
+    @phdthesis {vanvaerenbergh2010kernel,
+      author = {Van Vaerenbergh, Steven}
+      title = {Kernel methods for nonlinear identification, equalization and separation of signals},
+      year = {2010},
+      school = {University of Cantabria},
+      month = feb,
+      note = {Software available at \url{http://sourceforge.net/projects/kmbox/}}
+    }
 
 
 INCLUDED ALGORITHMS
