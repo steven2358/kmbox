@@ -76,6 +76,7 @@ Included algorithms
 - Quantized Kernel Least Mean Squares (QKLMS), as proposed in Chen B., Zhao S., Zhu P., Principe J.C. "Quantized Kernel Least Mean Square Algorithm," IEEE Transactions on Neural Networks and Learning Systems, vol.23, no.1, Jan. 2012, pages 22-32.
 - Alternating Kernel Canonical Correlation Analysis for blind equalization of single-input multiple-output Wiener systems, as proposed in S. Van Vaerenbergh, J. Via and I. Santamaria, "Blind Identification of SIMO Wiener Systems based on Kernel Canonical Correlation Analysis", accepted for publication in IEEE Transactions on Signal Processing, 2013.
 - Kernel density estimation (KDE).
+- Kernel-based Identification of Hammerstein systems (KIHAM), as proposed in S. Van Vaerenbergh and L. A. Azpicueta-Ruiz, "Kernel-Based Identification of Hammerstein Systems for Nonlinear Acoustic Echo-Cancellation", 2014 IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), Florence, Italy, May 2014.
 
 
 How to contribute code to the toolbox
@@ -85,7 +86,7 @@ Option 1: email it to me (steven@gtas.dicom.unican.es)
 
 Option 2: [fork the toolbox on GitHub](https://github.com/steven2358/kafbox), push your change to a named branch, then send me a pull request.
 
-Do include at least one "demo" file for each algorithm.
+Include at least one "demo" file for each algorithm.
 
 
 Changelog
