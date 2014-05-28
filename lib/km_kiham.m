@@ -5,8 +5,8 @@ function [alpha,h,J] = km_kiham(x,z,xdict,L,kerneltype,kernelpar,ca,ch,...
 % reduce the complexity.
 %
 % INPUTS
-%	- x: system input vector, Nx1
-%	- z: system output vector, Nx1
+%   - x: system input vector, Nx1
+%   - z: system output vector, Nx1
 %   - xdict: vector with dictionary, mx1
 %   - L: FIR channel length
 %   - kerneltype: kernel type
