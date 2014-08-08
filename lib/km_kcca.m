@@ -1,14 +1,17 @@
-function [y1,y2,beta] = km_kcca(X1,X2,kernel,kernelpar,reg,decomp,lrank)
+function [y1,y2,beta] = ...
+    km_kcca(X1,X2,kernel,kernelpar,reg,numeig,decomp,lrank)
 % KM_KCCA performs kernel canonical correlation analysis.
 % Input:	- X1, X2: data matrices containing one datum per row
 %			- kernel: kernel type (e.g. 'gauss')
 %			- kernelpar: kernel parameter value
 %			- reg: regularization
+%			- numeig: number of canonical correlation vectors to retrieve 
+%			  (default = 1)
 %			- decomp: low-rank decomposition technique (e.g. 'ICD')
 %			- lrank: target rank of decomposed matrices
-% Output:	- y1, y2: nonlinear projections of X1 and X2 (estimates of the
-%			latent variable)
-%			- beta: first canonical correlation
+% Output:	- y1, y2: nonlinear projections of X1 and X2 (canonical 
+%			  correlation vectors)
+%			- beta: canonical correlations
 % USAGE: [y1,y2] = km_kcca(X1,X2,kernel,kernelpar,reg,decomp,lrank)
 %
 % Author: Steven Van Vaerenbergh (steven *at* gtas.dicom.unican.es), 2012.
@@ -25,8 +28,20 @@ function [y1,y2,beta] = km_kcca(X1,X2,kernel,kernelpar,reg,decomp,lrank)
 
 N = size(X1,1);	% number of data
 
-if nargin<6
+if nargin<7,
 	decomp = 'full';
+end
+
+% handle the number of eigenvectors to return
+if nargin<6,
+    numeig = 1;
+end
+if ischar(numeig),
+    if strcmp(numeig,'all'),
+        numeig = min(size(X1,2),size(X2,2));
+    end
+else
+    numeig = min(numeig,min(size(X1,2),size(X2,2)));
 end
 
 switch decomp
@@ -62,14 +77,16 @@ switch decomp
 		% solve generalized eigenvalue problem
 		[alphas,betas] = eig(R,D);
 		[betass,ind] = sort(real(diag(betas)));
-		alpha = alphas(:,ind(end)); alpha = alpha/norm(alpha);
-		beta = betass(end);
+		alpha = alphas(:,ind(end:-1:end-numeig+1));
+		alpha_norms = sqrt((sum(alpha.^2,1)));
+		alpha = alpha./repmat(alpha_norms,N1+N2,1);
+		beta = betass(end:-1:end-numeig+1);
 
 		% expansion coefficients
-		alpha1 = alpha(1:N1);
-		alpha2 = alpha(N1+1:end);
+		alpha1 = alpha(1:N1,:);
+		alpha2 = alpha(N1+1:end,:);
 
-		% estimates of latent variable
+		% estimates of correlation vectors
 		y1 = G1*alpha1;
 		y2 = G2*alpha2;
 
@@ -103,15 +120,16 @@ switch decomp
 		% solve generalized eigenvalue problem
 		[alphas,betas] = eig(R,D);
 		[betass,ind] = sort(real(diag(betas)));
-		alpha = alphas(:,ind(end)); alpha = alpha/norm(alpha);
-		beta = betass(end);
+		alpha = alphas(:,ind(end:-1:end-numeig+1));
+		alpha_norms = sqrt((sum(alpha.^2,1)));
+		alpha = alpha./repmat(alpha_norms,2*N,1);
+		beta = betass(end:-1:end-numeig+1);
 
 		% expansion coefficients
-		alpha1 = alpha(1:N);
-		alpha2 = alpha(N+1:end);
+		alpha1 = alpha(1:N,:);
+		alpha2 = alpha(N+1:end,:);
 
-		% estimates of latent variable
+		% canonical correlation vectors
 		y1 = K1*alpha1;
 		y2 = K2*alpha2;
-
 end

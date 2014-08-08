@@ -54,7 +54,7 @@ x1 = x1*sqrt(diag(1./diag(x1'*x1)));
 x2 = x2*sqrt(diag(1./diag(x2'*x2)));
 
 % KCCA
-[y1,y2,beta] = km_kcca(x1,x2,kerneltype,kernelpar,reg,'ICD',Mmax);
+[y1,y2,beta] = km_kcca(x1,x2,kerneltype,kernelpar,reg,1,'ICD',Mmax);
 
 % scale the estimated signals to compare without the scalar ambiguity
 scaling = sqrt(var(s))/sqrt(var(y1))*sign(s(1))*sign(y1(1));
