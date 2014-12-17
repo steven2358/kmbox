@@ -38,10 +38,8 @@ if nargin<6,
 end
 if ischar(numeig),
     if strcmp(numeig,'all'),
-        numeig = min(size(X1,2),size(X2,2));
+        numeig = size(X1,1); % upper bound, to be reduced later
     end
-else
-    numeig = min(numeig,min(size(X1,2),size(X2,2)));
 end
 
 switch decomp
@@ -55,6 +53,10 @@ switch decomp
 		G1 = G1-repmat(mean(G1),N,1);
 		G2 = G2-repmat(mean(G2),N,1);
 
+        % restrict number of eigenvalues with rank information
+        minrank = min(size(G1,2),size(G2,2));
+        numeig = min(numeig,minrank);
+        
 		% ones and zeros
 		N1 = size(G1,2); N2 = size(G2,2);
 		Z11 = zeros(N1); Z22 = zeros(N2); Z12 = zeros(N1,N2);
@@ -99,6 +101,10 @@ switch decomp
 		K1 = N0*km_kernel(X1,X1,kernel,kernelpar)*N0;
 		K2 = N0*km_kernel(X2,X2,kernel,kernelpar)*N0;
 
+        % restrict number of eigenvalues with rank information
+        minrank = min(rank(K1),rank(K2));
+        numeig = min(numeig,minrank);
+        
 		% 3 GEV options, all of them are fairly equivalent
 
 		% % option 1: standard Hardoon
