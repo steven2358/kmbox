@@ -22,7 +22,8 @@ if (nargin<4), range_x = 1; end % default abscis expansion
 if (nargin<3), nsteps = 100; end % default number of abscis points
 
 % obtain full data range + extra bit
-mm = minmax(data(:)');
+mm(1) = min(data);
+mm(2) = max(data);
 if length(nsteps) > 1
     x = nsteps;
 else
