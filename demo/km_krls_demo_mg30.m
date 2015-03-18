@@ -29,16 +29,15 @@ pars.M = 100;				% maximum dictionary size
 % pars.algo = 'sw-krls';
 % pars.c = 1E-4;
 
-% % parameters for FB-KRLS
-% pars.algo = 'fb-krls';
-% pars.c = 1E-4;
-% pars.mu = 0;	% label update learning rate
-
-% parameters for SC-KRLS
-pars.algo = 'sc-krls';
+% parameters for KRLS-T
+pars.algo = 'krlst';
 pars.c = 1E-4;
-pars.th1 = -2.5;
-pars.th2 = Inf;	% no outliers
+pars.lambda = 1; % no forgetting
+
+% % parameters for QKLMS
+% pars.algo = 'qklms';
+% pars.mu = 0.1;
+% pars.epsu = 0.3;
 
 % % parameters for NORMA (KLMS)
 % pars.algo = 'norma';
@@ -111,12 +110,12 @@ for i=1:Ntrain,
 		case 'sw-krls'
 			vars = km_swkrls(vars,pars,x_train(i,:),y_train(i));	% train
 			y_est = km_swkrls(vars,pars,x_test);			% evaluate
-		case 'fb-krls'
-			vars = km_fbkrls(vars,pars,x_train(i,:),y_train(i));	% train
-			y_est = km_fbkrls(vars,pars,x_test);			% evaluate
-		case 'sc-krls'
-			vars = km_sckrls(vars,pars,x_train(i,:),y_train(i));	% train
-			y_est = km_sckrls(vars,pars,x_test);			% evaluate
+		case 'krlst'
+			vars = km_krlst(vars,pars,x_train(i,:),y_train(i));	% train
+			y_est = km_krlst(vars,pars,x_test);			% evaluate
+		case 'qklms'
+			vars = km_qklms(vars,pars,x_train(i,:),y_train(i));	% train
+			y_est = km_qklms(vars,pars,x_test);			% evaluate
 		case 'norma'
 			vars = km_norma(vars,pars,x_train(i,:),y_train(i));	% train
 			y_est = km_norma(vars,pars,x_test);			% evaluate
