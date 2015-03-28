@@ -78,7 +78,7 @@ while ((it < it_max) && ~converged)
     
     % calculate LS cost
     z_est = Kamem*h;
-    J(it) = sumsqr(z-z_est)/N; %#ok<AGROW>
+    J(it) = sum((z-z_est).^2)/N; %#ok<AGROW>
     
     if (it>1)
         converged = (J(it-1)-J(it)) < J_stop;

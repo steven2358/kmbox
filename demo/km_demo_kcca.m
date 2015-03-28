@@ -62,8 +62,8 @@ scaling = sqrt(var(s))/sqrt(var(y1))*sign(s(1))*sign(y1(1));
 % mean square errors
 error1 = s-scaling*y1;
 error2 = s-scaling*y2;
-MSE1 = sumsqr(error1)/N;
-MSE2 = sumsqr(error2)/N;
+MSE1 = sum(error1.^2)/N;
+MSE2 = sum(error2.^2)/N;
 
 toc
 %% OUTPUT

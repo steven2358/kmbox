@@ -203,7 +203,7 @@ sumnrg_h = 0;
 for i=1:p,
 	for j=1:p,
 		if(i~=j)
-			sumnrg_h = sumnrg_h + sumsqr(Ka{i}*h{j});
+			sumnrg_h = sumnrg_h + sum((Ka{i}*h{j}).^2);
 		end
 	end
 end
@@ -258,7 +258,7 @@ if diff_nlin
 	for i=1:p,
 		for j=1:p,
 			if(i~=j)
-				sumnrg_a = sumnrg_a + sumsqr(W{i,j}*a{i});
+				sumnrg_a = sumnrg_a + sum((W{i,j}*a{i}).^2);
 			end
 		end
 	end
@@ -394,9 +394,9 @@ for i=1:p,
 
 	for j=i+1:p,
 		if (i~=j)
-			MSE_zh = MSE_zh + sumsqr(zh_est{i,j}-zh_est{j,i});
+			MSE_zh = MSE_zh + sum((zh_est{i,j}-zh_est{j,i}).^2);
 			if isfield(vars,'za_est')
-				MSE_za = MSE_za + sumsqr(za_est{i,j}-za_est{j,i});
+				MSE_za = MSE_za + sum((za_est{i,j}-za_est{j,i}).^2);
 			end
 		end
 	end
