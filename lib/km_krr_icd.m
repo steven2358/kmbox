@@ -15,7 +15,7 @@ function [alpha,Y2,subset] = km_krr_icd(X,Y,ktype,kpar,m,X2)
 % Dependencies: km_kernel.
 % USAGE: [alpha,Y2,subset] = km_krr_icd(X,Y,ktype,kpar,m,X2)
 %
-% Author: Agamemnon Krasoulis, 2015
+% Author: Agamemnon Krasoulis, 2014
 %
 % This file is part of the Kernel Methods Toolbox for MATLAB.
 % https://github.com/steven2358/kmbox
