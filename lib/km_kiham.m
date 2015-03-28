@@ -41,7 +41,7 @@ m = size(xdict,1);
 N = length(x);
 
 %% INIT: LS regression to get h
-x_mem = fliplr(buffer(x, L, L-1)');
+x_mem = km_memfill(x,L);
 Rx = x_mem'*x_mem;
 P = x_mem'*z;
 h = (Rx+ch*eye(L))\P;
@@ -59,7 +59,7 @@ while ((it < it_max) && ~converged)
     % update alpha
     Kh = zeros(size(K));
     for i=1:m,
-        Kimem = fliplr(buffer(K(:,i), L, L-1)');
+        Kimem = km_memfill(K(:,i),L);
         Kh(:,i) = Kimem*h;
     end
     
@@ -69,7 +69,7 @@ while ((it < it_max) && ~converged)
     
     % update h
     Ka = K*alpha;
-    Kamem = fliplr(buffer(Ka, L, L-1)');
+    Kamem = km_memfill(Ka, L);
     
     Rax = Kamem'*Kamem;
     Pa = Kamem'*z;

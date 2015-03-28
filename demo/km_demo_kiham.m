@@ -44,7 +44,7 @@ H = [1 randn(1,L-1)]';
 x = 5*(2*rand(N,1)-1);
 % x = randn(N,1);
 z = f(x);
-z_mem = fliplr(buffer(z, L, L-1)');
+z_mem = km_memfill(z,L);
 y_ref = z_mem*H;
 
 sig = y_ref;
