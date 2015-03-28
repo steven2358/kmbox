@@ -23,7 +23,7 @@ Ntest = 200;		% number of test data points
 Nswitch = 500;		% abrupt switch from model 1 to model 2 after N1 iterations
 B1 = [1,.8668,-0.4764,0.2070]';	% model 1 linear filter
 B2 = [1,-.8326,.6656,-.7153]';	% model 2 linear filter
-f = inline('tanh(x)');			% Wiener system nonlinearity
+f = @(x) tanh(x);			% Wiener system nonlinearity
 SNR = 40;		% SNR in dB
 
 pars.kernel.type = 'gauss';	% kernel type
@@ -107,7 +107,7 @@ fprintf('\n');
 toc
 %% OUTPUT
 
-fprintf(1,'Mean MSE over last 500 steps = %.2d\n',mean(MSE(Ntrain-499:Ntrain)))
+fprintf('Mean MSE over last 500 steps = %.2d\n',mean(MSE(Ntrain-499:Ntrain)))
 
 figure;semilogy(MSE)
 title('MSE')

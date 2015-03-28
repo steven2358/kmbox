@@ -17,8 +17,8 @@ clear all
 rs = 1;
 randn('state',rs); rand('state',rs); %#ok<RAND>
 
-fprintf(1,'\nAlternating kernel CCA for blind equalization of ')
-fprintf(1,'SIMO Wiener systems.\n');
+fprintf('\nAlternating kernel CCA for blind equalization of ')
+fprintf('SIMO Wiener systems.\n');
 
 %% SETUP PARAMETERS
 pars_setup.model_num = 30244; % source model, see generate_data.m
@@ -35,7 +35,7 @@ pars = pars_setup; % copy some setup parameters
 pars.it_max = 100; % maximum number of iterations
 pars.it_stop = 1E-10; % stop iteration if change in cost is smaller than this
 pars.kernel.type = 'gauss'; % kernel type
-pars.kernel.par = 'km_silverman(x)'; % kernel parameter, either a scalar or a function to determine it
+pars.kernel.par = @(x) km_silverman(x); % kernel parameter, either a scalar or a function to determine it
 pars.m = 1E-8; % number of KPCA autovectors / precision of ICD, or fraction of discarded signal energy
 pars.reg = 1E-5; % regularization
 pars.decomp = 'ICD'; % ICD or KPCA
@@ -53,7 +53,7 @@ switch pars_setup.data_type,
         s = 2*round(rand(N,1))-1; % source signal
 end
 y = cell(p,1); x = cell(p,1); sigpow = 0;
-f = inline('tanh(0.8*x)+0.1*x'); % nonlinearity
+f = @(x) tanh(0.8*x)+0.1*x; % nonlinearity
 B1 = [0.6172   -0.8601    2.1383    0.4269   -1.3153
     0.6247    0.1532    0.9686   -0.5820   -0.4584
     0.3373   -0.1888   -1.4263    0.8060   -0.1740

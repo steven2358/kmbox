@@ -57,8 +57,8 @@ if diff_nlin,
     switch pars.decomp
         case 'KPCA'
             for i=1:p,
-                if ischar(kpar)	% determine kernel parameter
-                    parfun = inline(kpar);
+                if isa(kpar,'function_handle')	% determine kernel parameter
+                    parfun = kpar;
                     c{i} = parfun(x{i});
                 else c{i} = kpar(i);
                 end
@@ -76,8 +76,8 @@ if diff_nlin,
         case 'ICD'
             
             for i=1:p,
-                if ischar(kpar)	% determine kernel parameter
-                    parfun = inline(kpar);
+                if isa(kpar,'function_handle')	% determine kernel parameter
+                    parfun = kpar;
                     c{i} = parfun(x{i});
                 else
                     c{i} = kpar(i);
@@ -105,8 +105,8 @@ else
         Xf = [Xf;x{i}]; %#ok<AGROW>
     end
     
-    if ischar(kpar)	% determine kernel parameter
-        parfun = inline(kpar);
+    if isa(kpar,'function_handle')	% determine kernel parameter
+        parfun = kpar;
         c = parfun(Xf);
     else c = kpar(i);
     end

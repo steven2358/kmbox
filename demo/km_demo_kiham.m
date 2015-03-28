@@ -23,7 +23,7 @@ randn('state',rs); rand('state',rs); %#ok<RAND>
 %% PARAMETERS
 
 % system
-fs = 'tanh(x)';
+f = @(x) tanh(x);
 L = 256; % linear channel length
 N = 1024; % number of samples
 SNR = 50;
@@ -40,7 +40,6 @@ it_stop = 1E-6; % stop if change in cost is smaller than this
 %% GENERATE DATA
 
 H = [1 randn(1,L-1)]';
-f = inline(fs);
 
 x = 5*(2*rand(N,1)-1);
 % x = randn(N,1);

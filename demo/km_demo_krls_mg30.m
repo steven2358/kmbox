@@ -134,7 +134,7 @@ toc
 figure;plot(mg(1:500))
 title(sprintf('Mackey-Glass time series for tau=%d', tau));
 
-fprintf(1,'Mean MSE over last 500 steps = %.2d\n',mean(MSE(Ntrain-499:Ntrain)))
+fprintf('Mean MSE over last 500 steps = %.2d\n',mean(MSE(Ntrain-499:Ntrain)))
 
 figure;semilogy(MSE)
 title('MSE')

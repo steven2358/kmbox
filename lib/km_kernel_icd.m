@@ -53,7 +53,7 @@ for i = 1:m,	% column index
 		subset(i:end) = [];
 		break
 	end
-	[m2 j] = max(d(i:n));	% find the new best element
+	[m2,j] = max(d(i:n));	% find the new best element
 	j = j+i-1;	% take into account the offset i
 	m1 = sqrt(m2);
 	subset(i) = j;

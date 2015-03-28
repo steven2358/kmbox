@@ -74,7 +74,7 @@ switch mode
         kt = km_kernel(x,mem,ktype,kpar);
         y_est = kt*alpha;
         err = y-y_est;
-        m = length(alpha);
+        % m = length(alpha);
         dists = sqrt(2-2*kt);
         [mm,j] = min(dists);
 
