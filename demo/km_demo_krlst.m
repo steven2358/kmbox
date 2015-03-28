@@ -1,4 +1,4 @@
-% KM_KRLST_DEMO Time-varying regression using the Kernel Recursive 
+% KM_DEMO_KRLST Time-varying regression using the Kernel Recursive 
 % Least Square Tracker (KRLS-T) algorithm.
 %
 % This program demonstrates how to use the KRLS-T algorithm to perform

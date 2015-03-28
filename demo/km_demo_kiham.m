@@ -1,4 +1,4 @@
-% KM_AKCCA_DEMO Kernel-Based Identification of Hammerstein Systems. This
+% KM_DEMO_AKCCA Kernel-Based Identification of Hammerstein Systems. This
 % demo generates some Hammerstein system input and output data and performs
 % identification of the system using KIHAM.
 %

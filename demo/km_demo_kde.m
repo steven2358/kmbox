@@ -1,4 +1,4 @@
-% KM_KDE_DEMO Kernel density estimation demo.
+% KM_DEMO_KDE Kernel density estimation demo.
 %
 % Author: Steven Van Vaerenbergh (steven *at* gtas.dicom.unican.es), 2013
 %

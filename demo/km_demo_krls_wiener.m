@@ -1,4 +1,4 @@
-% KM_KRLS_DEMO_WIENER1 Wiener system identification using Kernel Recursive 
+% KM_DEMO_KRLS_WIENER1 Wiener system identification using Kernel Recursive 
 % Least Square (KRLS) regression.
 %
 % This program implements a regression example similar to the channel

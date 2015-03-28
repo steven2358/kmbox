@@ -1,4 +1,4 @@
-% KM_KPCA_DEMO_U Kernel principal component analysis (KPCA) on a U-shaped
+% KM_DEMO_KPCA_U Kernel principal component analysis (KPCA) on a U-shaped
 % two-dimensional data set. 
 %
 % This program implements the example shown in Figure 2.4 of "Kernel

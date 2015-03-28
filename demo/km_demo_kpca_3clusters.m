@@ -1,4 +1,4 @@
-% KM_KPCA_DEMO_3CLUSTERS Kernel principal component analysis (KPCA) on a 3-cluster
+% KM_DEMO_KPCA_3CLUSTERS Kernel principal component analysis (KPCA) on a 3-cluster
 % two-dimensional data set. 
 %
 % This program implements the example shown in Figure 2.5 of "Kernel

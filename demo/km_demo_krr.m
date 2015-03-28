@@ -1,4 +1,4 @@
-% KM_KRR_DEMO Kernel ridge regression (also known as kernel least-squares 
+% KM_DEMO_KRR Kernel ridge regression (also known as kernel least-squares 
 % (KLS) on data sampled from a sinc function.
 %
 % This program implements the example shown in Figure 2.1 of "Kernel

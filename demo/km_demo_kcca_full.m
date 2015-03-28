@@ -1,4 +1,4 @@
-% KM_KCCA_FULL_DEMO Demo file for kernel canonical correlation analysis
+% KM_DEMO_KCCA_FULL Demo file for kernel canonical correlation analysis
 % algorithm, without any matrix decompositions.
 %
 % This script takes two multi-dimensional variables and uses kernel CCA to

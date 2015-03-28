@@ -1,4 +1,4 @@
-% KM_TEMPLATE_DEMO defines the structure of a demo file in the Kernel
+% KM_DEMO_TEMPLATE defines the structure of a demo file in the Kernel
 % Methods Toolbox.
 %
 % The extended description of the demo goes here.

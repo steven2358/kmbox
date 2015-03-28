@@ -1,4 +1,4 @@
-% KM_AKCCA_DEMO Demonstration of Alternating Kernel Canonical Correlation
+% KM_DEMO_AKCCA Demonstration of Alternating Kernel Canonical Correlation
 % Analysis algorithm for blind equalization of single-input multiple-output
 % Wiener systems.
 %

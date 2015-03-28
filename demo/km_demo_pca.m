@@ -1,4 +1,4 @@
-% KM_PCA_DEMO Principal component analysis on a simple two-dimensional
+% KM_DEMO_PCA Principal component analysis on a simple two-dimensional
 % data set. The first principal component is retrieved and plotted,
 % together with both principal directions.
 %

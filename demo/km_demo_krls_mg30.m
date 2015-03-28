@@ -1,4 +1,4 @@
-% KM_KRLS_DEMO_MG30 One-step prediction using kernel adaptive filtering
+% KM_DEMO_KRLS_MG30 One-step prediction using kernel adaptive filtering
 % algorithms on the MG30 Mackey-Glass data set.
 %
 % This program contains code to generate a Mackey-Glass time series using
