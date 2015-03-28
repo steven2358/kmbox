@@ -22,7 +22,7 @@ for i=1:length(allfiles)
     
     % run script
     fname_demo = allfiles{i};
-    fprintf('Running %s\n',fname_demo);
+    fprintf('\nRunning %s\n',fname_demo);
     eval(fname_demo);
     
     load run_temp

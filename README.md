@@ -39,7 +39,7 @@ Usage
 
 The name of each function uses the prefix `km_` to minimize interference with other toolboxes. Usage of each function is specified in the function file itself.
 
-Most algorithms have a corresponding demonstration file in the "demo" folder that bears the suffix "_demo". These programs can be executed without setting any additional parameters.
+Most algorithms have a corresponding demonstration file in the "demo" folder that starts with "km_demo". These are scripts that can be executed without setting any additional parameters.
 
 The code uses the following conventions:
 - For data matrices, data is stored and accessed in row format: each data point is a row in the data matrix.
