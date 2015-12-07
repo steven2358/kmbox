@@ -9,7 +9,7 @@ function K = km_kernel(X1,X2,ktype,kpar)
 % Author: Steven Van Vaerenbergh (steven *at* gtas.dicom.unican.es), 2012.
 %
 % This file is part of the Kernel Methods Toolbox for MATLAB.
-% https://sourceforge.net/projects/kmbox 
+% https://github.com/steven2358/kmbox
 
 switch ktype
 	case 'gauss'	% Gaussian kernel

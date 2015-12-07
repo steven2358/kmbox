@@ -20,7 +20,7 @@ function out = km_fbkrls(vars,pars,x,y)
 % Dallas, Texas, U.S.A., March 2010.
 %
 % This file is part of the Kernel Methods Toolbox for MATLAB.
-% https://sourceforge.net/projects/kmbox 
+% https://github.com/steven2358/kmbox
 
 ktype = pars.kernel.type;
 kpar = pars.kernel.par;

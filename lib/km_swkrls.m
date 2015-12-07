@@ -14,7 +14,7 @@ function out = km_swkrls(vars,pars,x,y)
 % Author: Steven Van Vaerenbergh (steven *at* gtas.dicom.unican.es), 2011
 %
 % This file is part of the Kernel Methods Toolbox for MATLAB.
-% https://sourceforge.net/projects/kmbox 
+% https://github.com/steven2358/kmbox
 %
 % The algorithm in this file is based on the following publication:
 % S. Van Vaerenbergh, J. Via, and I. Santamaria. "A sliding-window kernel 

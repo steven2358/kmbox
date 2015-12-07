@@ -12,7 +12,7 @@ function K_nomean = km_kernel_center(X1,X2,Xm,ktype,par)
 % Author: Steven Van Vaerenbergh (steven *at* gtas.dicom.unican.es), 2007.
 %
 % This file is part of the Kernel Methods Toolbox for MATLAB.
-% https://sourceforge.net/projects/kmbox 
+% https://github.com/steven2358/kmbox
 
 N1 = size(X1,1);
 N2 = size(X2,1);

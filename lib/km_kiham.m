@@ -27,7 +27,7 @@ function [alpha,h,J] = km_kiham(x,z,xdict,L,kerneltype,kernelpar,ca,ch,...
 % Author: Steven Van Vaerenbergh, 2014
 %
 % This file is part of the Kernel Methods Toolbox for MATLAB.
-% https://sourceforge.net/projects/kmbox 
+% https://github.com/steven2358/kmbox
 %
 % The algorithm in this file is based on the following publication:
 % S. Van Vaerenbergh and L. A. Azpicueta-Ruiz, "Kernel-Based Identification

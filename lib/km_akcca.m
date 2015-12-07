@@ -20,7 +20,7 @@ function [vars,eval] = km_akcca(pars,data)
 % accepted for publication in IEEE Transactions on Signal Processing, 2013.
 %
 % This file is part of the Kernel Methods Toolbox for MATLAB.
-% https://sourceforge.net/projects/kmbox 
+% https://github.com/steven2358/kmbox
 
 % AKCCA CORE
 [vars, eval] = AKCCA_CORE_INIT(pars,data.x); % initialize

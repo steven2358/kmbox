@@ -31,7 +31,7 @@ function [out1,out2] = km_krlst(vars,pars,x,y)
 % Beijing, China, September 2011.
 %
 % This file is part of the Kernel Methods Toolbox for MATLAB.
-% https://sourceforge.net/projects/kmbox 
+% https://github.com/steven2358/kmbox
 
 ktype = pars.kernel.type;
 kpar = pars.kernel.par;

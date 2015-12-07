@@ -16,7 +16,7 @@ function [E,v] = km_kpca(X,m,ktype,kpar)
 % Author: Steven Van Vaerenbergh (steven *at* gtas.dicom.unican.es), 2010.
 %
 % This file is part of the Kernel Methods Toolbox for MATLAB.
-% https://sourceforge.net/projects/kmbox 
+% https://github.com/steven2358/kmbox
 
 n = size(X,1);
 

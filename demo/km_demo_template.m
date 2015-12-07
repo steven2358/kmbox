@@ -6,7 +6,7 @@
 % Author: authorname (authoremail), year.
 %
 % This file is part of the Kernel Methods Toolbox for MATLAB.
-% https://sourceforge.net/projects/kmbox 
+% https://github.com/steven2358/kmbox
 
 close all
 clear all

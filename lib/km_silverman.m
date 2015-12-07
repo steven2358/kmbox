@@ -13,7 +13,7 @@ function kernel_width = km_silverman(x)
 % Chapman & Hall/CRC, London, UK, 1986.
 %
 % This file is part of the Kernel Methods Toolbox for MATLAB.
-% https://sourceforge.net/projects/kmbox 
+% https://github.com/steven2358/kmbox
 
 sig = std(x);
 sx = sort(x);

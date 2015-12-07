@@ -5,6 +5,6 @@ function y = km_template(x)
 % Author: authorname (authoremail), year.
 % 
 % This file is part of the Kernel Methods Toolbox for MATLAB.
-% https://sourceforge.net/projects/kmbox 
+% https://github.com/steven2358/kmbox
 
 y = x;

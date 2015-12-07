@@ -11,7 +11,7 @@
 % (ICASSP), Florence, Italy, May 2014.
 %
 % This file is part of the Kernel Methods Toolbox for MATLAB.
-% https://sourceforge.net/projects/kmbox 
+% https://github.com/steven2358/kmbox
 
 %% STATE
 

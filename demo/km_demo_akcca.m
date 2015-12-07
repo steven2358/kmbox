@@ -10,7 +10,7 @@
 % accepted for publication in IEEE Transactions on Signal Processing, 2013.
 %
 % This file is part of the Kernel Methods Toolbox for MATLAB.
-% https://sourceforge.net/projects/kmbox 
+% https://github.com/steven2358/kmbox
 
 close all
 clear all

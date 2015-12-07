@@ -19,7 +19,7 @@ function [G,subset] = km_kernel_icd(X,ktype,kpar,m,precision)
 % Analysis", Journal of Machine Learning Research, 3, 1-48, 2002.
 %
 % This file is part of the Kernel Methods Toolbox for MATLAB.
-% https://sourceforge.net/projects/kmbox 
+% https://github.com/steven2358/kmbox
 
 n = size(X,1);
 if nargin<5

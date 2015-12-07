@@ -20,7 +20,7 @@ function varout = km_qklms(vars,pars,x,y)
 % Systems, vol.23, no.1, Jan. 2012, pages 22-32.
 %
 % This file is part of the Kernel Methods Toolbox for MATLAB.
-% https://sourceforge.net/projects/kmbox 
+% https://github.com/steven2358/kmbox
 
 ktype = pars.kernel.type;
 kpar = pars.kernel.par;

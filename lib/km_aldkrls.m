@@ -23,7 +23,7 @@ function out = km_aldkrls(vars,pars,x,y)
 % maximum dictionary size "M".
 %
 % This file is part of the Kernel Methods Toolbox for MATLAB.
-% https://sourceforge.net/projects/kmbox 
+% https://github.com/steven2358/kmbox
 
 ktype = pars.kernel.type;
 kpar = pars.kernel.par;

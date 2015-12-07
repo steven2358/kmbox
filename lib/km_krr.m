@@ -17,7 +17,7 @@ function [alpha,Y2] = km_krr(X,Y,ktype,kpar,c,X2)
 % Author: Steven Van Vaerenbergh (steven *at* gtas.dicom.unican.es), 2010.
 %
 % This file is part of the Kernel Methods Toolbox for MATLAB.
-% https://sourceforge.net/projects/kmbox 
+% https://github.com/steven2358/kmbox
 
 if (nargin<6)
 	X2 = X;

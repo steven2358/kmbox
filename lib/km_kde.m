@@ -14,7 +14,7 @@ function [x,y] = km_kde(data,sigma,nsteps,range_x)
 % Author: Steven Van Vaerenbergh (steven *at* gtas.dicom.unican.es), 2010.
 %
 % This file is part of the Kernel Methods Toolbox for MATLAB.
-% https://sourceforge.net/projects/kmbox 
+% https://github.com/steven2358/kmbox
 
 N = length(data);	% number of data points
 

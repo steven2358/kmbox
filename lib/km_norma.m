@@ -19,7 +19,7 @@ function varout = km_norma(vars,pars,x,y)
 % pages 2165-2176, 2004.
 %
 % This file is part of the Kernel Methods Toolbox for MATLAB.
-% https://sourceforge.net/projects/kmbox 
+% https://github.com/steven2358/kmbox
 
 ktype = pars.kernel.type;
 kpar = pars.kernel.par;
