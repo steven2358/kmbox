@@ -14,8 +14,9 @@
 
 close all
 clear all
-rs = 1;
-randn('state',rs); rand('state',rs); %#ok<RAND>
+rs = 1; % seed for random generator
+rng('default')
+rng(rs)
 
 fprintf('\nAlternating kernel CCA for blind equalization of ')
 fprintf('SIMO Wiener systems.\n');

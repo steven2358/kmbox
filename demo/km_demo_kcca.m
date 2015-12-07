@@ -20,8 +20,9 @@
 % https://github.com/steven2358/kmbox
 
 close all; clear all
-rs = 1; % seed for random
-randn('state',rs); rand('state',rs); %#ok<RAND>
+rs = 1; % seed for random generator
+rng('default')
+rng(rs)
 
 %% PARAMETERS
 N = 1000;	% number of samples. method's complexity is O(NM^2)

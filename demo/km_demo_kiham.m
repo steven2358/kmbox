@@ -17,8 +17,9 @@
 
 close all; clear all
 % rs = sum(100*clock);
-rs = 1;
-randn('state',rs); rand('state',rs); %#ok<RAND>
+rs = 1; % seed for random generator
+rng('default')
+rng(rs)
 
 %% PARAMETERS
 
