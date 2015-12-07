@@ -8,7 +8,7 @@
 % https://sourceforge.net/projects/kmbox
 
 close all
-clear all
+clear
 
 %% PARAMETERS
 

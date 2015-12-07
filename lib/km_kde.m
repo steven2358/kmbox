@@ -39,4 +39,3 @@ c = 1/sqrt(2*pi*sigma^2);
 for i=1:N,
 	y = y + 1/N*c*exp(-(data(i)-x).^2/(2*sigma^2));
 end
-

@@ -8,7 +8,7 @@
 % https://github.com/steven2358/kmbox
 
 close all
-clear all
+clear
 
 %% PARAMETERS
 
@@ -33,4 +33,3 @@ plot([0 E(1,2)],[0 E(2,2)],'k','LineWidth',4)
 axis equal
 legend('data','first principal components','first principal direction','second principal direction')
 title('linear PCA demo')
-

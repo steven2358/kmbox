@@ -14,7 +14,7 @@
 % https://github.com/steven2358/kmbox
 
 close all
-clear all
+clear
 
 %% PARAMETERS
 

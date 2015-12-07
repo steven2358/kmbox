@@ -15,7 +15,7 @@
 
 %% STATE
 
-close all; clear all
+close all; clear
 % rs = sum(100*clock);
 rs = 1; % seed for random generator
 rng('default')

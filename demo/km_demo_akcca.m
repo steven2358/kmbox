@@ -13,7 +13,7 @@
 % https://github.com/steven2358/kmbox
 
 close all
-clear all
+clear
 rs = 1; % seed for random generator
 rng('default')
 rng(rs)
