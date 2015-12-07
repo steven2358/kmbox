@@ -5,7 +5,7 @@ A MATLAB toolbox for nonlinear signal processing and machine learning
 
 Author: [Steven Van Vaerenbergh](http://gtas.unican.es/people/steven)
 
-Official web: https://sourceforge.net/projects/kmbox  
+Official web: https://github.com/steven2358/kmbox
 
 
 About
@@ -56,7 +56,7 @@ If you use this toolbox in your research please cite [my Ph.D. thesis](http://gt
       year = {2010},
       school = {University of Cantabria},
       month = feb,
-      note = {Software available at \url{http://sourceforge.net/projects/kmbox/}}
+      note = {Software available at \url{https://github.com/steven2358/kmbox}}
     }
 
 
@@ -84,7 +84,7 @@ How to contribute code to the toolbox
 
 Option 1: email it to me (steven@gtas.dicom.unican.es)
 
-Option 2: [fork the toolbox on GitHub](https://github.com/steven2358/kafbox), push your change to a named branch, then send me a pull request.
+Option 2: [fork the toolbox on GitHub](https://github.com/steven2358/kmbox), push your change to a named branch, then send me a pull request.
 
 Include at least one "demo" file for each algorithm.
 
@@ -93,6 +93,8 @@ Changelog
 ---
 
 History of changes:
+
+Changes starting v0.10 are documented in the Git repository.
 
 v0.9 (2013-05-21)
 - inclusion of KDE code and demo
