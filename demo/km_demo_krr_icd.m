@@ -42,5 +42,5 @@ plot(X,Y,'x','Color',[0.7,0.7,0.7]);
 plot(X2,Y2sinc,'b--','LineWidth',2)
 plot(X2,Y2,'r');
 plot(X(subset,:),Y(subset),'og')
-legend('noisy data','regression','true sinc function','support points')
+legend('noisy data','true sinc function','regression','support points')
 title('Kernel ridge regression demo')
