@@ -17,7 +17,7 @@ KMBOX includes implementations of algorithms such as kernel principal component 
 
 The goal of this distribution is to provide easy-to-analyze algorithm implementations, which reveal the inner mechanics of each algorithm and allow for quick modifications. The focus of these implementations is therefore on readability rather than speed or memory usage.
 
-The basis of this toolbox was a set of programs written for the Ph.D. Thesis "Kernel Methods for Nonlinear Identification, Equalization and Separation of Signals".
+The starting point of this toolbox was a set of programs written for the Ph.D. Thesis "Kernel Methods for Nonlinear Identification, Equalization and Separation of Signals".
 
 Template files are provided to encourage external authors to include their own code into the toolbox.
 
@@ -48,7 +48,7 @@ The code uses the following conventions:
 Citing KMBOX
 ---
 
-If you use this toolbox in your research please cite [my Ph.D. thesis](http://gtas.unican.es/pub/255):
+If you use this toolbox in your research please cite [this Ph.D. thesis](http://gtas.unican.es/pub/255):
 
     @phdthesis {vanvaerenbergh2010kernel,
       author = {Van Vaerenbergh, Steven}
