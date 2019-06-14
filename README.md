@@ -77,6 +77,7 @@ Included algorithms
 - Alternating Kernel Canonical Correlation Analysis for blind equalization of single-input multiple-output Wiener systems, as proposed in S. Van Vaerenbergh, J. Via and I. Santamaria, "Blind Identification of SIMO Wiener Systems based on Kernel Canonical Correlation Analysis", accepted for publication in IEEE Transactions on Signal Processing, 2013.
 - Kernel density estimation (KDE).
 - Kernel-based Identification of Hammerstein systems (KIHAM), as proposed in S. Van Vaerenbergh and L. A. Azpicueta-Ruiz, "Kernel-Based Identification of Hammerstein Systems for Nonlinear Acoustic Echo-Cancellation", 2014 IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), Florence, Italy, May 2014.
+- Nystrom method based kernel matrix decomposition and kernel ridge regression, as proposed in C.K.I. Williams and M. Seeger, "Using the Nyström method to speed up kernel machines." Proceedings of the 14th Annual Conference on Neural Information Processing Systems. No. EPFL-CONF-161322. 2001.
 
 
 How to contribute code to the toolbox
