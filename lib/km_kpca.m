@@ -10,7 +10,6 @@ function [E,v] = km_kpca(X,m,ktype,kpar)
 %			- kpar: vector containing the kernel parameters.
 % Output:	- E: matrix containing the principal components.
 %			- v: array containing the eigenvalues.
-%			- Xep: projections of Xe on principal directions
 % USAGE: [E,v] = km_kpca(X,m,ktype,kpar)
 %
 % Author: Steven Van Vaerenbergh (steven.vanvaerenbergh at unican.es) 2010.
@@ -22,10 +21,10 @@ n = size(X,1);
 
 K = km_kernel(X,X,ktype,kpar);
 [E,V] = eig(K);
-v = diag(V);	% eigenvalues
+v = diag(V); % eigenvalues
 [v,ind] = sort(v,'descend');
 v = v(1:m);
-E = E(:,ind(1:m));	% principal components
+E = E(:,ind(1:m)); % principal components
 for i=1:m
-	E(:,i) = E(:,i)/sqrt(n*v(i));	% normalization
+    E(:,i) = E(:,i)/sqrt(n*v(i)); % normalization
 end
