@@ -14,7 +14,7 @@ function [E,v] = km_kpca_icd(X,m,ktype,kpar,precision)
 %			- v: array containing the eigenvalues.
 % USAGE: [E,v] = km_kpca_icd(X,m,ktype,kpar,precision)
 %
-% Author: Steven Van Vaerenbergh (steven *at* gtas.dicom.unican.es), 2010.
+% Author: Steven Van Vaerenbergh (steven.vanvaerenbergh at unican.es) 2010.
 %
 % This file is part of the Kernel Methods Toolbox for MATLAB.
 % https://github.com/steven2358/kmbox

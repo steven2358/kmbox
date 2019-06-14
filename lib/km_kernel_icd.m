@@ -11,7 +11,7 @@ function [G,subset] = km_kernel_icd(X,ktype,kpar,m,precision)
 % Dependencies: km_kernel.
 % USAGE: G = km_kernel_icd(X,ktype,kpar,m,precision)
 %
-% Author: Steven Van Vaerenbergh (steven *at* gtas.dicom.unican.es), 2010.
+% Author: Steven Van Vaerenbergh (steven.vanvaerenbergh at unican.es) 2010.
 % Based on code by Sohan Seth (sohan *at* cnel.ufl.edu), 2009.
 %
 % The algorithm in this file is based on the following publication:

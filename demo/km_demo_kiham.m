@@ -2,7 +2,7 @@
 % demo generates some Hammerstein system input and output data and performs
 % identification of the system using KIHAM.
 %
-% Author: Steven Van Vaerenbergh (steven *at* gtas.dicom.unican.es), 2013.
+% Author: Steven Van Vaerenbergh (steven.vanvaerenbergh at unican.es) 2013.
 %
 % The algorithm in this file is based on the following publication:
 % S. Van Vaerenbergh and L. A. Azpicueta-Ruiz, "Kernel-Based Identification

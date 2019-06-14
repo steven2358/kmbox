@@ -15,7 +15,7 @@ function [alpha,subset,Y2] = km_krr_nystrom(X,Y,ktype,kpar,m,X2)
 % Dependencies: km_kernel.
 % USAGE: [alpha,Y2,subset] = km_krr_nystrom(X,Y,ktype,kpar,m,X2)
 %
-% Author: Steven Van Vaerenbergh (steven *at* gtas.dicom.unican.es), 2016
+% Author: Steven Van Vaerenbergh (steven.vanvaerenbergh at unican.es) 2016
 %
 % This file is part of the Kernel Methods Toolbox for MATLAB.
 % https://github.com/steven2358/kmbox

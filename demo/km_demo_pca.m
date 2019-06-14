@@ -2,7 +2,7 @@
 % data set. The first principal component is retrieved and plotted,
 % together with both principal directions.
 %
-% Author: Steven Van Vaerenbergh (steven *at* gtas.dicom.unican.es), 2010.
+% Author: Steven Van Vaerenbergh (steven.vanvaerenbergh at unican.es) 2010.
 %
 % This file is part of the Kernel Methods Toolbox for MATLAB.
 % https://github.com/steven2358/kmbox

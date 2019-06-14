@@ -11,7 +11,7 @@ function out = km_fbkrls(vars,pars,x,y)
 % Dependencies: km_kernel.
 % USAGE: out = km_fbkrls(vars,pars,x,y)
 %
-% Author: Steven Van Vaerenbergh (steven *at* gtas.dicom.unican.es), 2010.
+% Author: Steven Van Vaerenbergh (steven.vanvaerenbergh at unican.es) 2010.
 %
 % The algorithm in this file is based on the following publication:
 % S. Van Vaerenbergh, I. Santamaria, W. Liu and J. C. Principe, "Fixed-

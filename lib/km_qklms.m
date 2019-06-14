@@ -12,7 +12,7 @@ function varout = km_qklms(vars,pars,x,y)
 % Dependencies: km_kernel.
 % USAGE: out = km_qklms(vars,pars,x,y)
 %
-% Author: Steven Van Vaerenbergh (steven *at* gtas.dicom.unican.es), 2012
+% Author: Steven Van Vaerenbergh (steven.vanvaerenbergh at unican.es) 2012
 %
 % The algorithm in this file is based on the following publication:
 % Chen B., Zhao S., Zhu P., Principe J.C. "Quantized Kernel Least Mean 

@@ -14,7 +14,7 @@ function [y1,y2,beta] = ...
 %           - beta: canonical correlations
 % USAGE: [y1,y2] = km_kcca(X1,X2,kernel,kernelpar,reg,decomp,lrank)
 %
-% Author: Steven Van Vaerenbergh (steven *at* gtas.dicom.unican.es), 2012.
+% Author: Steven Van Vaerenbergh (steven.vanvaerenbergh at unican.es) 2012.
 %
 % The algorithm in this file is based on the following publications:
 % D. R. Hardoon, S. Szedmak and J. Shawe-Taylor, "Canonical Correlation

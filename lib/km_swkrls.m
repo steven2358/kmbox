@@ -11,7 +11,7 @@ function out = km_swkrls(vars,pars,x,y)
 % Dependencies: km_kernel.
 % USAGE: out = km_swkrls(vars,pars,x,y)
 %
-% Author: Steven Van Vaerenbergh (steven *at* gtas.dicom.unican.es), 2011
+% Author: Steven Van Vaerenbergh (steven.vanvaerenbergh at unican.es) 2011.
 %
 % This file is part of the Kernel Methods Toolbox for MATLAB.
 % https://github.com/steven2358/kmbox

@@ -6,7 +6,7 @@ function K = km_kernel(X1,X2,ktype,kpar)
 % Output:	- K: kernel matrix
 % USAGE: K = km_kernel(X1,X2,ktype,kpar)
 %
-% Author: Steven Van Vaerenbergh (steven *at* gtas.dicom.unican.es), 2012.
+% Author: Steven Van Vaerenbergh (steven.vanvaerenbergh at unican.es) 2012.
 %
 % This file is part of the Kernel Methods Toolbox for MATLAB.
 % https://github.com/steven2358/kmbox

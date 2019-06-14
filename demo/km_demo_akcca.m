@@ -2,7 +2,7 @@
 % Analysis algorithm for blind equalization of single-input multiple-output
 % Wiener systems.
 %
-% Author: Steven Van Vaerenbergh (steven *at* gtas.dicom.unican.es), 2011.
+% Author: Steven Van Vaerenbergh (steven.vanvaerenbergh at unican.es) 2011.
 %
 % The algorithm in this file is based on the following publication:
 % S. Van Vaerenbergh, J. Via and I. Santamaria, "Blind Identification of 

@@ -5,7 +5,7 @@
 % the 4th order Runge-Kutta method, based on a Matlab implementation
 % provided by Eric Wan, available at http://www.cse.ogi.edu/~ericwan/
 %
-% Author: Steven Van Vaerenbergh (steven *at* gtas.dicom.unican.es), 2010.
+% Author: Steven Van Vaerenbergh (steven.vanvaerenbergh at unican.es) 2010.
 %
 % This file is part of the Kernel Methods Toolbox for MATLAB.
 % https://github.com/steven2358/kmbox

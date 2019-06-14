@@ -5,7 +5,7 @@ function x_mem = km_memfill(x,L)
 % Output: - x_mem: matrix of buffered data frames
 % USAGE: x_mem = km_memfill(x,L)
 %
-% Author: Steven Van Vaerenbergh (steven *at* gtas.dicom.unican.es), 2015.
+% Author: Steven Van Vaerenbergh (steven.vanvaerenbergh at unican.es) 2015.
 %
 % This file is part of the Kernel Methods Toolbox for MATLAB.
 % https://github.com/steven2358/kmbox

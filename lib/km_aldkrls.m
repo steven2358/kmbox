@@ -12,7 +12,7 @@ function out = km_aldkrls(vars,pars,x,y)
 % Dependencies: km_kernel.
 % USAGE: out = km_aldkrls(vars,pars,x,y)
 %
-% Author: Steven Van Vaerenbergh (steven *at* gtas.dicom.unican.es), 2010.
+% Author: Steven Van Vaerenbergh (steven.vanvaerenbergh at unican.es) 2010.
 %
 % The algorithm in this file is based on the following publication:
 % Y. Engel, S. Mannor, and R. Meir. "The kernel recursive least-squares

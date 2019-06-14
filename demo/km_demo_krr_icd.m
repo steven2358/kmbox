@@ -2,7 +2,7 @@
 % least-squares KLS) on data sampled from a sinc function, using incomplete
 % Cholesky decomposition.
 %
-% Author: Steven Van Vaerenbergh (steven *at* gtas.dicom.unican.es), 2010
+% Author: Steven Van Vaerenbergh (steven.vanvaerenbergh at unican.es) 2010.
 %
 % This file is part of the Kernel Methods Toolbox for MATLAB.
 % https://github.com/steven2358/kmbox

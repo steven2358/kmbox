@@ -7,7 +7,7 @@
 % large data sets. This demo includes 3 flavors of the KCCA generalized
 % eigenvalue problem, all yielding very similar results.
 %
-% Author: Steven Van Vaerenbergh (steven *at* gtas.dicom.unican.es), 2012.
+% Author: Steven Van Vaerenbergh (steven.vanvaerenbergh at unican.es) 2012.
 %
 % The algorithm in this file is based on the following publications: 
 % D. R. Hardoon, S. Szedmak and J. Shawe-Taylor, "Canonical Correlation 

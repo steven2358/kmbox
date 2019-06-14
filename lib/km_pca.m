@@ -11,7 +11,7 @@ function [E,v,Xp] = km_pca(X,m)
 %			- Xp: matrix containing the principal components
 % USAGE: [E,v,Xp] = km_pca(X,m)
 %
-% Author: Steven Van Vaerenbergh (steven *at* gtas.dicom.unican.es), 2010.
+% Author: Steven Van Vaerenbergh (steven.vanvaerenbergh at unican.es) 2010.
 %
 % This file is part of the Kernel Methods Toolbox for MATLAB.
 % https://github.com/steven2358/kmbox

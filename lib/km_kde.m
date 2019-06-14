@@ -11,7 +11,7 @@ function [x,y] = km_kde(data,sigma,nsteps,range_x)
 %			- y: estimates of p(x)
 % USAGE: [xx,pp] = km_kde(data,sigma,nsteps,range_x)
 %
-% Author: Steven Van Vaerenbergh (steven *at* gtas.dicom.unican.es), 2010.
+% Author: Steven Van Vaerenbergh (steven.vanvaerenbergh at unican.es) 2010.
 %
 % This file is part of the Kernel Methods Toolbox for MATLAB.
 % https://github.com/steven2358/kmbox

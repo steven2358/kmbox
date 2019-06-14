@@ -11,7 +11,7 @@
 % Workshop on Machine Learning for Signal Processing (MLSP 2011),
 % Beijing, China, September 2011..
 %
-% Author: Steven Van Vaerenbergh (steven *at* gtas.dicom.unican.es), 2012.
+% Author: Steven Van Vaerenbergh (steven.vanvaerenbergh at unican.es) 2012.
 %
 % This file is part of the Kernel Methods Toolbox for MATLAB.
 % https://github.com/steven2358/kmbox

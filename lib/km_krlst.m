@@ -21,8 +21,8 @@ function [out1,out2] = km_krlst(vars,pars,x,y)
 %           evaluation mode.
 % USAGE: [out1,out2] = km_krlst(vars,pars,x,y)
 %
-% Authors: Miguel Lazaro-Gredilla (miguellg *at* gtas.dicom.unican.es),
-% Steven Van Vaerenbergh (steven *at* gtas.dicom.unican.es)
+% Authors: Miguel Lazaro-Gredilla (miguel at ieee.org),
+% Steven Van Vaerenbergh (steven.vanvaerenbergh at unican.es)
 %
 % The algorithm in this file is based on the following publication:
 % M. Lazaro-Gredilla, S. Van Vaerenbergh and I. Santamaria, "A Bayesian
